@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Crystal Collector Game</title>
+
+		<!--link to jQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!--link to css Meyerweb reset stylesheet-->
+		<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+		<!--link to css stylesheet-->
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	</head>
+
+
+	<body>
+
+		<h1>Cystals Collector Game!</h1>
+
+		<br>
+		<br>
+
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "panel panel-default instructions">
+						<div class = "panel-body">
+							Instructions
+							<br>
+							<br>
+							You will be given a random number at the start of 
+							the game.
+							<br>
+							<br>
+							There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+							total score.
+							<br>
+							<br>
+							You win the game by matching your score to the random number, you lose the game if your total score goes above the random number.
+							<br>
+							<br>
+							The value of each crystal is hidden from you until you click on it.
+							<br>
+							<br>
+							Each time when the game starts, the game will change the values of each crystal and the value of the random number you are trying to match.
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class = "row">
+				<div class = "col-md-3">
+					<div class = "panel panel-defualt scoreToMatch">
+						<div class = "panel-heading">
+							Current Number to Match
+						</div>
+						<div class = "panel-body">
+						</div>
+					</div>
+				</div>
+				<div class = "col-md-3">
+					<div class = "panel panel-default results">
+						temporary text
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class = "row">
+				<div class = "col-md-2">
+					<img src = "./assets/images/af657c.jpg" id = "crystalOne" alt = "rhodochrosite crystals">
+				</div>
+				<div class = "col-md-2">
+					<img src = "./assets/images/SN11-a.jpg" id  
+					"crystalTwo" alt = "tourmaline crystals">
+				</div>
+				<div class = "col-md-2">
+					<img src = "./assets/images/Denver2011-123SulfurSicilyItaly60mm.jpg" 
+					id = "crystalThree" alt = "sulfur crystals">
+				</div>
+				<div class = "col-md-2">
+					<img src = "./assets/images/azurite-crystals.jpg" id = "crystalFour" alt = "azurite crystals">
+				</div>
+			</div>
+			<br>
+			<div class = "row">
+				<div class = "col-md-6">
+					<div class = "panel panel-default currentScore">
+						<div class = "panel body">
+							Your total score is:
+							<br>
+							<br>
+							temporary text
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+	<script src="./assets/javascript/game.js">
+
+	</script>
+
+
+	</body
+
+</html>
