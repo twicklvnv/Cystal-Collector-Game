@@ -22,10 +22,24 @@ h1 {
 }
 
 .currentScore {
+	color:white;
 	background-color:#1f7a7a;
 }
 
 img {
 	height:150px;
 	width:150px;
+	border-style:solid;
+	border-color:white;
+	border-width:5px;
+}
+
+h2 {
+	font-size:24px;
+}
+
+.instructions, .scoreToMatch, .results, .currentScore {
+	border-style:solid;
+	border-color:white;
+	border-width:3px;
 }
