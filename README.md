@@ -25,7 +25,7 @@ When the game begins again, the player should see a new random number. Also, all
 
 The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
-
+![crystalcollector2](https://user-images.githubusercontent.com/30394249/38773290-a19f902c-4005-11e8-93be-dacf2f950b83.jpg)
 
 Option 1 Game design notes
 
